@@ -42,11 +42,16 @@ const App = () => {
     );
   };
 
+  // Stretch work not complete (yet)
+  // const searchPost = searchInput => {
+    
+  // }
+
   return (
     <div className='App'>
-      {/* Add SearchBar and Posts here to render them */}
-      {/* Check the implementation of each component, to see what props they require, if any! */}
+      {/* Add SearchBar for rendering */}
       <SearchBar />
+      {/* Add Posts for rendering with required likePost and posts props */}
       <Posts likePost={likePost} posts={posts} />
     </div>
   );
